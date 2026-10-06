@@ -1,0 +1,20 @@
+{
+  "pipeline_settings": {
+    "art_style": "Pixar 3D animation style, vibrant lighting, soft warm atmosphere, highly detailed render, 8k",
+    "aspect_ratio": "16:9",
+    "target_dpi": 300,
+    "default_negative_prompt": "deformed hands, extra fingers, distorted face, changed outfit, low quality, blurred, realistic photo, multiple faces, extra limbs"
+  },
+  "ip_adapter_config": {
+    "enabled": true,
+    "weight": 0.85,
+    "mode": "face_plus_v2",
+    "source_image_key": "child_identity.photo_url"
+  },
+  "controlnet_config": {
+    "enabled": true,
+    "control_type": "openpose",
+    "weight": 0.75,
+    "guidance_end": 0.80
+  }
+}

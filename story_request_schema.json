@@ -1,0 +1,30 @@
+{
+  "child_identity": {
+    "full_name": "سارة أحمد",
+    "nickname": "سارونة",
+    "age": 6,
+    "gender": "female",
+    "photo_url": "https://storage.example.com/uploads/child_123.jpg"
+  },
+  "daily_environment": {
+    "school_or_kindergarten": "روضة الزهور",
+    "favorite_hobby": "الرسم"
+  },
+  "personal_social": {
+    "favorite_color": "الوردي",
+    "favorite_food": "البيتزا",
+    "inspiring_character": "بطل خارق",
+    "parents": {
+      "father_name": "أحمد",
+      "mother_name": "فاطمة"
+    },
+    "siblings_and_friends": ["خالد", "مريم"]
+  },
+  "educational_and_story": {
+    "values_to_instill": ["الشجاعة", "ترتيب الألعاب"],
+    "behavior_to_modify": "عناد النوم",
+    "language_level": "فصحى بسيطة مشكولة",
+    "story_genre": "خالية وفكاهية",
+    "story_setting": "بيت الجدة"
+  }
+}

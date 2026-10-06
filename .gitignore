@@ -1,0 +1,34 @@
+# Environment variables & secrets (CRITICAL: NEVER COMMIT THESE)
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Databases & local data
+*.db
+*.sqlite3
+
+# Project generated outputs & test files
+output_images/
+*.pdf
+سارة أحمد_Test_Story.pdf
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
